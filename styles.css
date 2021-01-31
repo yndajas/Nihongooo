@@ -1,0 +1,77 @@
+/* flex layout to push footer to the bottom if there's not enough content to push it down */
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+}
+
+.content {
+   flex: 1;
+}
+
+/* spacing */
+
+main, header {
+    margin-bottom: 20px;
+}
+
+.navbar, main {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+footer p {
+    padding: 10px 0;
+    margin: 0 auto;
+    color: #fff;
+}
+
+/* font size override */
+h3 {
+    font-size: 1.5rem;
+}
+
+/* no space between paragraph and list */
+
+.before-list {
+    margin-bottom: 0;
+}
+
+/* YouTube video */
+
+#button-container {
+    text-align: center;
+}
+
+#video-container {
+    display: none;
+    position: relative;
+    padding: 30px 0px 57% 0px;
+    height: 0;
+    overflow: hidden;
+}
+
+#video {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* kana chart */
+
+#kana-chart {
+    display: block;
+    max-width: 780px;
+    height: 650px;
+    overflow: auto;
+}
+
+/* both iframes */
+
+iframe {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+}

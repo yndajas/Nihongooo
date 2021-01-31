@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Home - Nihingooo!</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+                <a class="navbar-brand" href="index.html"><h1>Nihongooo!</h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="books.html">Books</a>
+                        <a class="nav-item nav-link" href="websites.html">Websites</a>
+                        <a class="nav-item nav-link" href="kana.html">Kana</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="content">
+            <h2>Let's learn Japanese!</h2>
+
+            <p>This site details a small selection of resources that help you to learn Japanese. The site provides a free kana chart to aid learning, and recommendations for websites and books to check out for learning the vocabulary, kanji and grammar.</p>
+
+            <p>There are many other more comprehensive lists and reviews of resources available elsewhere, but here I focus on the websites/web apps I use and the books I've bought/plan to use, having done a lot of research and tested out a number of different platforms.</p>
+
+            <p id="button-container"><button type="button" class="btn btn-danger" onclick="playJazz();">I'm feeling jazzy!</button></p>
+
+            <p id="video-container"><iframe id="video" allow="autoplay" allowfullscreen></iframe></p>
+        </main>
+        <footer>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+                <p>© Ynda Jas <script>document.write( new Date().getFullYear() );</script></p>
+            </nav>
+        </footer>
+        <script src="jazzy.js"></script>
+        <!--Bootstrap JavaScript files to enable menu toggle on small screens/windows-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
