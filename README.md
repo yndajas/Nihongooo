@@ -1,4 +1,4 @@
-# Nhihongooo!
+# Nihongooo!
 
 A mini site focused on learning Japanese hosted at <a href="https://nihongooo.yndajas.co" target="_blank">nihongooo.yndajas.co</a>.
 
