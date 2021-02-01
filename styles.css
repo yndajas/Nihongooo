@@ -75,3 +75,8 @@ iframe {
     margin: 0 auto;
     border: 0;
 }
+
+h1, main div {
+  padding-left: 8px;
+  padding-right: 8px;
+}
