@@ -80,3 +80,8 @@ h1, main div {
   padding-left: 8px;
   padding-right: 8px;
 }
+
+/* bottom navbar innermost container */
+div#navbarNavAltMarkupFooter div.navbar-nav {
+    width: 100%;
+}
