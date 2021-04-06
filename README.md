@@ -2,6 +2,8 @@
 
 A mini site focused on learning Japanese hosted at <a href="https://nihongooo.yndajas.co" target="_blank">nihongooo.yndajas.co</a>.
 
+This was originally made as a solution to 'Homepage' from CS50 2020 problem set 8. Problem description: https://cs50.harvard.edu/x/2020/tracks/web/homepage
+
 ## Contributing
 
 Suggestions, questions, bug reports and pull requests are more than welcome.
